@@ -24,7 +24,7 @@ export default function Checkout() {
     error,
     sendRequest,
     clearData,
-  } = useHttp("https://foodcart-t6yz.onrender.com/orders", requestConfig);
+  } = useHttp("https://foodcart-mha8.onrender.com/orders", requestConfig);
 
   const cartTotal = cartCtx.items.reduce(
     (totalPrice, item) => totalPrice + item.quantity * item.price,
