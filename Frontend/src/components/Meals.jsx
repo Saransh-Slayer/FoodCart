@@ -8,7 +8,7 @@ export default function Meals() {
     data: loadedMeals,
     isLoading,
     error,
-  } = useHttp("https://foodcart-t6yz.onrender.com/meals", requestConfig, []);
+  } = useHttp("https://foodcart-mha8.onrender.com/meals", requestConfig, []);
 
   console.log(loadedMeals);
   if (isLoading) {
